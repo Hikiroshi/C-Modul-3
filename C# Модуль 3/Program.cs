@@ -1,16 +1,20 @@
 ﻿using System;
 
 class MainClass
-
 {
-    enum DaysOfWeek : byte
+    public static void Main(string[] args)
     {
-        Monday = 1,
-        Tuesday,
-        Wednesday,
-        Thursday,
-        Friday,
-        Saturday,
-        Sunday
+        DaysOfWeek MyFavoriteDay;
+
+        MyFavoriteDay = DaysOfWeek.Friday;
+
+        Console.WriteLine(MyFavoriteDay);
     }
+}
+
+enum Semaphore : int
+{
+    Red = 100,
+    Yellow = 200,
+    Green = 300
 }
