@@ -4,17 +4,7 @@ class MainClass
 {
     public static void Main(string[] args)
     {
-        DaysOfWeek MyFavoriteDay;
-
-        MyFavoriteDay = DaysOfWeek.Friday;
-
-        Console.WriteLine(MyFavoriteDay);
+        double result = 10 % 3;
+        Console.WriteLine("10 % 3 = {0}", result);
     }
-}
-
-enum Semaphore : int
-{
-    Red = 100,
-    Yellow = 200,
-    Green = 300
 }
