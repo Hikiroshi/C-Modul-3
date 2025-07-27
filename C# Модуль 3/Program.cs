@@ -4,7 +4,16 @@ class MainClass
 {
     public static void Main(string[] args)
     {
-        double result = 10 % 3;
-        Console.WriteLine("10 % 3 = {0}", result);
+        Console.Write("Введите имя: ");
+        var name = Console.ReadLine();
+
+        Console.WriteLine("введите возраст: ");
+        var age = Convert.ToInt32(Console.ReadLine());
+
+        Console.WriteLine("Ваше имя {0}, возвраст {1} лет", name, age);
+
+        Console.WriteLine("введите дату рождения: ");
+        var birthdate = Console.ReadLine();
+        Console.WriteLine("Ваше день рождения {0}", birthdate);
     }
 }
