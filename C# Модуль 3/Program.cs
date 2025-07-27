@@ -4,9 +4,11 @@ class MainClass
 {
     public static void Main(string[] args)
     {
-        string a;
-        string b;
-        var c = a != b;
+        int a;
+        int b;
+        double x;
+        double y;
+        bool c = (a < b) | (x > y);
         Console.WriteLine(c);
     }
 }
