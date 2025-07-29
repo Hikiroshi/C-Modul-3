@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35828.75 d17.13
+VisualStudioVersion = 17.13.35828.75
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C# Модуль 3", "C# Модуль 3\C# Модуль 3.csproj", "{715F9CA0-7512-4EBF-AD16-45E7610C7884}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C# Модуль 3-4", "C# Модуль 3\C# Модуль 3-4.csproj", "{715F9CA0-7512-4EBF-AD16-45E7610C7884}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
